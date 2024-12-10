@@ -4,12 +4,14 @@ function tsp_ls(distance_matrix) {
     if(cities === 0 || cities === 1) {
         return 0;
     }
-    // finds initial route and that route's best distance
+    // finds initial route and that route's distance
     let bestRoute = randomizeRoute(cities);
     let bestDistance = distance(distance_matrix, bestRoute);
 
     // this iterates through the loop, allowing to check almost all permutations of the cities. It ignores the starting city, and allows always at least one node to swap.
+    // for each node going left
     for(let i = 1; i < cities - 1; i++){
+        // reverse the next node, then chain down reversing all other subarrays in the array repeatedly
         for(let k = i + 1; k < cities; k++){
             // reverses the middle chunk
             let newRoute = reverse(bestRoute, i, k);
