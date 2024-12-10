@@ -51,6 +51,10 @@ What is the worst-case asymptotic time complexity of your implementation? What
 is the worst-case asymptotic memory complexity? Add your answer, including your
 reasoning, to this markdown file.
 
+The worst case scenario for my implementation is $\Theta(n * (n-2) ^ 2 )$
+
+This is because the main loop runs for n-1 times, and its main nested loop, so the loop for i and k respectively, are each run for n-2 times, with both ignoring the starting node, i ignoring the end, and k ignoring i's first node. Each time, the route is reversed and the distance is calculated, thats another n times. This makes the total time complexity $\Theta(n * (n-2) ^ 2)$
+
 ## Sources and Plagarism Statement
 I worked with Lily Brongo to help me with figuring out how to accurately calculate distances. Worked with Michael Stoll to help understand the concepts of the TSP problem and how this solution worked to help solve the problem.
 
