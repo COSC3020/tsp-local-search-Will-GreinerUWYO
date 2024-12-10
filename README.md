@@ -50,3 +50,10 @@ Test your new function; I've provided some basic testing code in `code.test.js`.
 What is the worst-case asymptotic time complexity of your implementation? What
 is the worst-case asymptotic memory complexity? Add your answer, including your
 reasoning, to this markdown file.
+
+## Sources and Plagarism Statement
+I worked with Lily Brongo to help me with figuring out how to accurately calculate distances. Worked with Michael Stoll to help understand the concepts of the TSP problem and how this solution worked to help solve the problem.
+
+I accessed the following external sources for additional support, including helping me determine how to find an i and k value. [University of Southern Denmark](https://dm865.github.io/assets/dm865-tsp-ls-handout.pdf) and helping me understand the fundamental TSP problem [Luis Izquierdo](https://www.youtube.com/watch?v=mQ9tCn3vxHw&ab_channel=LuisR.Izquierdo)
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
